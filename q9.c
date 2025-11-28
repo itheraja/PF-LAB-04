@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int method;
     double total = 6.25;
     printf("Payment method (1=Cash, 2=Card): ");
-    if (scanf("%d", &method) != 1) return 0;
+    scanf("%d", &method);
 
     if (method == 1) {
         printf("Paying by cash. No processing fee.\n");

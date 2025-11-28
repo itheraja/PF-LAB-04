@@ -1,4 +1,3 @@
-/* Q2 - single scoop vs multi-scoop message */
 #include <stdio.h>
 
 int main() {
